@@ -1,0 +1,4 @@
+name: cpp_cmake
+auther: linarcx
+icon: /assets/cmake.png
+comment: A cmake template to generate simple c++ projects.
