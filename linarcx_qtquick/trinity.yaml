@@ -1,0 +1,4 @@
+name: linarcx_qtquick
+author: linarcx
+icon: /assets/qt.png
+comment: A template to generate qt-quick apps.

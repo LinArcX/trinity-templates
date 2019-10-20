@@ -1,0 +1,34 @@
+<RCC>
+    <qresource prefix="/pages">
+        <file alias="main.qml">modules/pages/main.qml</file>
+    </qresource>
+    <qresource prefix="/fonts">
+        <file alias="FontAwesome.ttf">util/fonts/FontAwesome.ttf</file>
+        <file alias="Vazir.ttf">util/fonts/Vazir.ttf</file>
+    </qresource>
+    <qresource prefix="/conf">
+        <file alias="qtquickcontrols2.conf">appconf/qtquickcontrols2.conf</file>
+        <file alias="{[project_name]}.desktop">appconf/{[project_name]}.desktop</file>
+    </qresource>
+    <qresource prefix="/images">
+        <file alias="warning.svg">util/images/warning.svg</file>
+    </qresource>
+    <qresource prefix="/components">
+        <file alias="qml/LinArcxDialog.qml">util/qml/LinArcxDialog.qml</file>
+        <file alias="qml/LinArcxPopUp.qml">util/qml/LinArcxPopUp.qml</file>
+        <file alias="qml/LinArcXHLine.qml">util/qml/LinArcXHLine.qml</file>
+        <file alias="js/MenuCreator.js">util/js/MenuCreator.js</file>
+        <file alias="js/ElementCreator.js">util/js/ElementCreator.js</file>
+        <file alias="js/CanvasUtil.js">util/js/CanvasUtil.js</file>
+        <file alias="qml/ToolTiper.qml">util/qml/ToolTiper.qml</file>
+        <file alias="qml/LinarcxToolTip.qml">util/qml/LinarcxToolTip.qml</file>
+        <file alias="qml/LinarcxImageToolTiper.qml">util/qml/LinarcxImageToolTiper.qml</file>
+        <file alias="qml/LinarcxLabel.qml">util/qml/LinarcxLabel.qml</file>
+        <file alias="qml/LinarcxButton.qml">util/qml/LinarcxButton.qml</file>
+        <file alias="js/Constants.js">util/js/Constants.js</file>
+    </qresource>
+    <qresource prefix="/strings">
+        <file alias="SettingsStrings.js">util/strings/SettingsStrings.js</file>
+        <file alias="CoreStrings.js">util/strings/CoreStrings.js</file>
+    </qresource>
+</RCC>
