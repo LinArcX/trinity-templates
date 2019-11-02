@@ -1,8 +1,10 @@
 <RCC>
     <qresource prefix="/pages">
         <file alias="main.qml">modules/pages/main.qml</file>
+        <file alias="Settings.qml">modules/pages/settings/view/Settings.qml</file>
     </qresource>
     <qresource prefix="/fonts">
+        <file alias="Aller.ttf">util/fonts/Aller.ttf</file>
         <file alias="FontAwesome.ttf">util/fonts/FontAwesome.ttf</file>
         <file alias="Vazir.ttf">util/fonts/Vazir.ttf</file>
     </qresource>
@@ -12,6 +14,10 @@
     </qresource>
     <qresource prefix="/images">
         <file alias="warning.svg">util/images/warning.svg</file>
+        <file alias="settings.svg">util/images/settings.svg</file>
+        <file alias="palette.svg">util/images/palette.svg</file>
+        <file alias="text.svg">util/images/text.svg</file>
+        <file alias="fontSize.svg">util/images/fontSize.svg</file>
     </qresource>
     <qresource prefix="/components">
         <file alias="qml/LinArcxDialog.qml">util/qml/LinArcxDialog.qml</file>
