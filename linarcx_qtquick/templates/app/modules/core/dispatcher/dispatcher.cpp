@@ -7,7 +7,6 @@
 #include <QTranslator>
 
 #include "modules/core/dispatcher/dispatcher.h"
-#include "modules/pages/createISO/presenter/createISO.h"
 #include "modules/pages/settings/presenter/settings.h"
 #include <modules/core/dispatcher/dispatcherMacro.h>
 
@@ -34,6 +33,5 @@ Dispatcher::Dispatcher(QGuiApplication& mApp, QObject* parent)
 
 void Dispatcher::registerTypes()
 {
-    qmlRegisterType<CreateISO>("linarcx.kindd.CreateISO", 1, 0, "CreateISO");
     qmlRegisterType<Settings>("linarcx.kindd.Settings", 1, 0, "Settings");
 }
