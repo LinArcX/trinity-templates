@@ -12,7 +12,7 @@ Dispatcher::Dispatcher(QGuiApplication& app, bool& isRTL, QObject* parent)
     QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
     app.setOrganizationName("linarcx");
     app.setOrganizationDomain("io.github.com");
-    app.setApplicationName("Trinity");
+    app.setApplicationName("{[PROJECT_NAME]}");
 
     registerTypes();
 

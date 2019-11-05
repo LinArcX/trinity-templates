@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name={[PROJECT_NAME]}
+Name[en_US]={[PROJECT_NAME]}
+Name[en_US.UTF-8]={[PROJECT_NAME]}
+Comment={[comment]}
+Exec={[PROJECT_NAME]}
+Icon={[PROJECT_NAME]}
+Terminal=false
+Type=Application
+Keywords=Utility;
+Categories=Utility;Qt;

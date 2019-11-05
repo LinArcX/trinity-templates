@@ -1,7 +1,7 @@
 <RCC>
     <qresource prefix="/">
         <file alias="qtquickcontrols2.conf">appconf/qtquickcontrols2.conf</file>
-        <file alias="{[project_name]}.desktop">appconf/{[project_name]}.desktop</file>
+        <file alias="{[PROJECT_NAME]}.desktop">appconf/{[PROJECT_NAME]}.desktop</file>
     </qresource>
     <qresource prefix="/pages">
         <file alias="Settings.qml">modules/pages/settings/view/Settings.qml</file>

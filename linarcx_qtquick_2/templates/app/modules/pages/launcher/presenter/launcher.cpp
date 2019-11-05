@@ -37,18 +37,6 @@ void Launcher::removeItem(QVariant key)
     QtUtil::removeKey(ORGANIZATION, APPLICATION, TEMPLATES_GROUP, key.toString());
 }
 
-void Launcher::hasConfig(QVariant rawPath)
-{
-    QString dir = rawPath.toString().split("//")[1];
-    const std::string configFile = dir.toStdString() + "/trinity.yaml";
-    bool isConfiFileExists = FileUtil::fileExists(QString::fromStdString(configFile));
-    if (isConfiFileExists) {
-        emit configFound(true);
-    } else {
-        emit configFound(false);
-    }
-}
-
 void Launcher::listTemplates(QVariant rawPath)
 {
     QStringList templates;
