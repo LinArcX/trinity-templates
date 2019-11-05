@@ -12,7 +12,7 @@ file(GLOB HEADERS src/*.h pages/*.h util/*.h)
 ADD_EXECUTABLE({[PROJECT_NAME]} ${SOURCES} ${HEADERS})
 
 FIND_PACKAGE(PkgConfig REQUIRED)
-PKG_CHECK_MODULES({[PROJECT_NAME]} REQUIRED {[libs]})
+#PKG_CHECK_MODULES({[PROJECT_NAME]} REQUIRED libCurl
 
 # Tell the compiler where to look for headers and to the linker where to look for libraries
 INCLUDE_DIRECTORIES(${{[PROJECT_NAME]}_INCLUDE_DIRS})

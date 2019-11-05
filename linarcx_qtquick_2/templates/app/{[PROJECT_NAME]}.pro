@@ -28,7 +28,7 @@ OTHER_FILES += LICENSE\
 
 ############### Libs ###############
 unix: CONFIG += link_pkgconfig
-#unix: PKGCONFIG += libYaml
+#unix: PKGCONFIG += libCurl
 
 ############### Deployment ###############
 qnx: target.path = /tmp/$${TARGET}/bin
